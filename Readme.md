@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Окунев](https://up.htmlacademy.ru/htmlcss/22/user/800441).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Майстренко](https://up.htmlacademy.ru/htmlcss/22/user/natalie).
 
 ---
 
