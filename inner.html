@@ -8,7 +8,7 @@
 <header class="main-header">
 	<nav class="main-navigation">
 		<a href="index.html" class="main-header-logo">
-			<img src="img/logo.svg" alt="main-logo" width="140" height="72">
+			<img src="img/logo.svg" alt="Логотип Седона" width="140" height="72">
 		</a>
 		<ul class="site-navigation">
 			<li><a href="#">Информация</a></li>
@@ -22,7 +22,37 @@
 	<section class="filter">
 		<b>Инфраструктура:</b>
 		<b>Тип жилья:</b>
-		<!-- Форма -->
+		<b>Стоимость в сутки(Р):</b>
+		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+			<ul>
+		<li>
+					<input type="checkbox" name="Бассейн" id="filter-pool" checked>
+     <label for="filter-pool">Бассейн</label>
+                </li>
+		<li>
+					<input type="checkbox" name="Парковка" id="filter-parking" >
+      <label for="filter-parking">Парковка</label>
+                 </li>
+        <li>
+					<input type="checkbox" name="Wi=Fi" id="filter-internet" >
+      <label for="filter-internet">Wi-Fi</label>
+                 </li>
+       <li>
+					<input type="checkbox" name="Гостиница" id="filter-hotel" checked >
+      <label for="filter-hotel">Гостиница</label>
+                 </li>
+        <li>
+					<input type="checkbox" name="Мотель" id="filter-motel" checked >
+      <label for="filter-motel">Мотель</label>
+                 </li>   
+         <li>
+					<input type="checkbox" name="Аппартаменты" id="filter-apartment" checked >
+      <label for="filter-apartment">Аппартаменты</label>
+                 </li>
+			</ul>
+			<input type="range" min="0" max="300" step="1" value="150"> 
+		</form>
+		<button class="filter-btn" type="submit" aria-label="Показать отели">Показать</button>
 	</section>
 	<section class="sort">
 		<p class="text-find">Найдено:3</p>
@@ -43,8 +73,8 @@
 		<p class="name">AMARA RESORT & SPA</p>
 		<p class="type">Гостиница</p>
 		<p class="cost">От 4000 Р.</p>
-		<a class="btn" href="#">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
+		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>
 	<article>
 	<a class="image">
@@ -53,8 +83,8 @@
 		<p class="name">DESERT QUAIL INN</p>
 		<p class="type">Мотель</p>
 		<p class="cost">От 3000 Р.</p>
-		<a class="btn" href="#">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
+		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>
 	<article>
 	<a class="image">
@@ -63,24 +93,24 @@
 		<p class="name">VILLAS AT POCO DIABLO</p>
 		<p class="type">АПАРТАМЕНТЫ</p>
 		<p class="cost">От 2000 Р.</p>
-		<a class="btn" href="#">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
+		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>	
 	</section>
 </main>
- <footer class="main-footer">
+  <footer class="main-footer">
    	<p class="hashtag">#visitsedona</p>
    	<div class="footer-social">
    		<ul>
-   	<li><a class="social-btn" href="#">Твиттер</a></li>
- 	<li><a class="social-btn" href="#">Фейсбук</a></li>
- 	<li><a class="social-btn" href="#">Ютуб</a></li>
+   	<li><a class="social-btn" href="#" aria-label="Наш Твиттер">Твиттер</a></li>
+ 	<li><a class="social-btn" href="#" aria-label="Наш Фейсбук">Фейсбук</a></li>
+ 	<li><a class="social-btn" href="#" aria-label="Наш Ютуб">Ютуб</a></li>
   		</ul>
    	</div>
    	<p class="footer-copyright">
  	<b>WEBSITE BY</b>
  	<a href="https://htmlacademy.ru/">
-<img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="115" height="41">
+<img src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="41">
  	</a>
  </p>
    </footer>

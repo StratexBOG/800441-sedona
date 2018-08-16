@@ -7,8 +7,8 @@
   <body>
 <header class="main-header">
 	<nav class="main-navigation">
-		<a href="index.html" class="main-header-logo">
-		<img src="img/logo.svg" alt="main-logo" width="140" height="72">
+		<a href="index.html" class="main-header-logo" >
+		<img src="img/logo.svg" alt="Логотип Седона" width="140" height="72">
 		</a>
 		<ul class="site-navigation">
 			<li><a href="#">Информация</a></li>
@@ -21,7 +21,7 @@
 <main class="container">
 	<section class="intro">
 		<div class="intro-welcome">
-		<img src="img/background.jpg" alt="background" width="1200" height="800">
+		<img src="img/background.jpg" alt="Добро пожаловать в Седону" width="1200" height="800">
 	</div>
 	<div class="intro-about">
 		<h1>Седона - небольшой городок в Аризоне, заслуживающий большего! 
@@ -73,24 +73,43 @@
 	<section class="search">
 		<h1>Заинтересовались?</h1>
 		<p class="search-text text">Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-		<a href="#" class="search-btn btn">Поиск гостиницы в Седоне</a>
-		<!-- Форма -->
+		<a href="#" class="search-btn btn" aria-label="Найти гостиницу" >Поиск гостиницы в Седоне</a>
+		<form class="search-аpartment" method="post" action="https://echo.htmacademy.ru">
+			<p>
+				<label for="date-of-arrival">Дата заезда:</label>
+				<input id="date-of-arrival" type="date" name="arrival">
+			</p>
+			<p>
+			<label for="date-of-departure">Дата выезда:</label>
+				<input id="date-of-departure" type="date" name="departure">	
+			</p>
+			<p>
+				<p>
+			<label for="number-of-adults">Взрослые:</label>
+				<input id="number-of-adults" type="number" name="adults">
+			</p>
+			<p>
+			<label for="number-of-children">Дети:</label>
+				<input id="number-of-children" type="number" name="children">
+			</p>
+			<button class="search-btn" type="submit" aria-label="Найти отель">Найти</button>	
+		</form>
 	</section>
-	 <img src="img/map.jpg" alt="map" width="1718" height="748">
+	 <img src="img/map.jpg" alt="Как добраться до Седоны" width="1718" height="748">
 </main>
    <footer class="main-footer">
    	<p class="hashtag">#visitsedona</p>
    	<div class="footer-social">
    		<ul>
-   	<li><a class="social-btn" href="#">Твиттер</a></li>
- 	<li><a class="social-btn" href="#">Фейсбук</a></li>
- 	<li><a class="social-btn" href="#">Ютуб</a></li>
+   	<li><a class="social-btn" href="#" aria-label="Наш Твиттер">Твиттер</a></li>
+ 	<li><a class="social-btn" href="#" aria-label="Наш Фейсбук">Фейсбук</a></li>
+ 	<li><a class="social-btn" href="#" aria-label="Наш Ютуб">Ютуб</a></li>
   		</ul>
    	</div>
    	<p class="footer-copyright">
  	<b>WEBSITE BY</b>
  	<a href="https://htmlacademy.ru/">
-<img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="115" height="41">
+<img src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="41">
  	</a>
  </p>
    </footer>
