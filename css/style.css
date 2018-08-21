@@ -16,6 +16,11 @@ a {
 	text-decoration: none;
 }
 
+.main-logo {
+	display: block;
+	margin: auto;
+}
+
 .main-navigation {
 	font-size: 14px;
 	line-height: 26px;
@@ -47,6 +52,11 @@ a:visited.navigation-btn {
 .intro-welcome {
 	background-image: url("backgroundphoto.jpg");
 	background-repeat: no-repeat;
+}
+
+.intro {
+	display: block;
+	margin: auto;
 }
 
 .intro-about {
