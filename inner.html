@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
      <title>Выбор отеля</title>
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
 <body>
 <header class="main-header">
@@ -14,19 +17,16 @@
 			<li><a href="#">Информация</a></li>
 			<li><a href="#">Фото и видео</a></li>
 			<li><a href="#">Карта штата</a></li>
-			<li><a href="index.html">Гостиницы</a></li>
+			<li><a href="index.html" class="navigation-btn">Гостиницы</a></li>
 		</ul>
 	</nav>
 </header>
 <main class="container">
 	<section class="filter">
-		<b>Инфраструктура:</b>
-		<b>Тип жилья:</b>
-		<b>Стоимость в сутки(Р):</b>
 		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
-			<fieldset>
-				<legend>Инфраструктура</legend>
-			<ul>
+			<fieldset style="border:none">
+				<legend class="filter-type">Инфраструктура:</legend>
+			<ul class="checkbox-list">
 		<li>
 					<input type="checkbox" name="Бассейн" id="filter-pool" checked>
      <label for="filter-pool">Бассейн</label>
@@ -41,9 +41,9 @@
                  </li>
              </ul>
          </fieldset>
-<fieldset>
-	<legend>Тип жилья</legend>
-	<ul>
+<fieldset style="border:none">
+	<legend class="filter-type">Тип жилья:</legend>
+	<ul class="checkbox-list">
        <li>
 					<input type="checkbox" name="Гостиница" id="filter-hotel" checked >
       <label for="filter-hotel">Гостиница</label>
@@ -58,8 +58,8 @@
                  </li>
 			</ul>
 		</fieldset>
-		<fieldset>
-			<legend>Стоимость</legend>
+		<fieldset style="border:none">
+			<legend class="filter-type">Стоимость в сутки (Р):</legend>
 			<input type="range" min="0" max="300" step="1" value="150"> 
 		</fieldset>
 			<button class="filter-btn" type="submit" aria-label="Показать отели">Показать</button>
@@ -67,7 +67,7 @@
 	</section>
 	<section class="sort">
 		<p class="text-find">Найдено:3</p>
-		<p class="text-sort">Сортировка</p>
+		<p class="text-sort">Сортировка:</p>
 	<div class="sort">
 		<a href="#" class="btn-sort">По цене</a>
 		<a href="#" class="btn-sort">По типу</a>
@@ -81,38 +81,38 @@
 	<a class="image">
 			<img src="img/Layer_21.jpg" alt="Гостиница" width="135" height="90">
 		</a>
-		<h3 class="name">AMARA RESORT & SPA</h3>
+		<h3 class="name"><a href="#" class="title-hotel">AMARA RESORT & SPA</a></h3>
 		<p class="type">Гостиница</p>
 		<p class="cost">От 4000 Р.</p>
 		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>
 	<article>
 	<a class="image">
 			<img src="img/Layer_89_copy.jpg" alt="Мотель" width="135" height="90">
 		</a>
-		<h3 class="name">DESERT QUAIL INN</h3>
+		<h3 class="name"><a href="#" class="title-hotel">DESERT QUAIL INN</a></h3>
 		<p class="type">Мотель</p>
 		<p class="cost">От 3000 Р.</p>
 		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>
 	<article>
 	<a class="image">
 			<img src="img/Layer_22.jpg" alt="Апартаменты" width="135" height="90">
 		</a>
-		<h3 class="name">VILLAS AT POCO DIABLO</h3>
+		<h3 class="name"><a href="#" class="title-hotel">VILLAS AT POCO DIABLO</a></h3>
 		<p class="type">АПАРТАМЕНТЫ</p>
 		<p class="cost">От 2000 Р.</p>
 		<a class="btn" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
-		<a class="btn" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
+		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		</article>	
 	</section>
 </main>
   <footer class="main-footer">
    	<p class="hashtag">#visitsedona</p>
    	<div class="footer-social">
-   		<ul>
+   		<ul class="social-list">
    	<li><a class="social-btn" href="#" aria-label="Наш Твиттер">Твиттер
    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
    	</a></li>
@@ -125,7 +125,7 @@
   		</ul>
    	</div>
    	<p class="footer-copyright">
- 	<b>WEBSITE BY</b>
+ 	 <b class="created-by">WEBSITE BY</b>
  	<a href="https://htmlacademy.ru/">
 <img src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="41">
  	</a>
