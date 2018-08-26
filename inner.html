@@ -24,44 +24,44 @@
 <main class="container">
 	<section class="filter">
 		<form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
-			<fieldset style="border:none">
-				<legend class="filter-type">Инфраструктура:</legend>
-			<ul class="checkbox-list">
-		<li>
+			<fieldset  style="border:none">
+				<legend class="filter-type filter-type_str">Инфраструктура:</legend>
+			<ul class="checkbox-list checkbox-list_str">
+		<li class="checkboxes">
 					<input type="checkbox" name="Бассейн" id="filter-pool" checked>
      <label for="filter-pool">Бассейн</label>
                 </li>
-		<li>
+		<li class="checkboxes">
 					<input type="checkbox" name="Парковка" id="filter-parking" >
       <label for="filter-parking">Парковка</label>
                  </li>
-        <li>
+        <li class="checkboxes">
 					<input type="checkbox" name="Wi=Fi" id="filter-internet" >
       <label for="filter-internet">Wi-Fi</label>
                  </li>
              </ul>
          </fieldset>
-<fieldset style="border:none">
-	<legend class="filter-type">Тип жилья:</legend>
-	<ul class="checkbox-list">
-       <li>
+<fieldset  style="border:none">
+	<legend class="filter-type filter-type_house">Тип жилья:</legend>
+	<ul class="checkbox-list checkbox-list_house">
+       <li class="checkboxes">
 					<input type="checkbox" name="Гостиница" id="filter-hotel" checked >
       <label for="filter-hotel">Гостиница</label>
                  </li>
-        <li>
+        <li class="checkboxes">
 					<input type="checkbox" name="Мотель" id="filter-motel" checked >
       <label for="filter-motel">Мотель</label>
                  </li>   
-         <li>
+         <li class="checkboxes">
 					<input type="checkbox" name="Аппартаменты" id="filter-apartment" checked >
       <label for="filter-apartment">Аппартаменты</label>
                  </li>
 			</ul>
 		</fieldset>
 		<fieldset style="border:none">
-			<legend class="filter-type">Стоимость в сутки (Р):</legend>
-			<button class="filter-btn" type="submit" aria-label="Показать отели">Показать</button>
-			<input type="range" min="0" max="300" step="1" value="150"> 
+			<legend class="filter-type filter-type_cost">Стоимость в сутки (Р):</legend>
+			<input class="range-cost" type="range" min="0" max="300" step="1" value="150"> 
+			<button class="filter-btn btn-show" type="submit" aria-label="Показать отели">Показать</button>
 		</fieldset>
 		</form>
 	</section>
@@ -79,6 +79,7 @@
 	<section class="content">
 		<div class="main-content">
 		<article>
+			<div class="amara-resort">
 	<a class="image">
 			<img src="img/Layer_21.jpg" alt="Гостиница" width="135" height="90">
 		</a>
@@ -88,8 +89,10 @@
 		<a class="btn-blue" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
 		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		<p class="rate">Рейтинг: 8,5</p>
+	</div>
 		</article>
 	<article>
+		<div class="desert-quail">
 	<a class="image">
 			<img src="img/Layer_89_copy.jpg" alt="Мотель" width="135" height="90">
 		</a>
@@ -99,8 +102,10 @@
 		<a class="btn-blue" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
 		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		<p class="rate">Рейтинг: 8,9</p>
+	</div>
 		</article>
 	<article>
+		<div class="villas-at">
 	<a class="image">
 			<img src="img/Layer_22.jpg" alt="Апартаменты" width="135" height="90">
 		</a>
@@ -110,6 +115,7 @@
 		<a class="btn-blue" href="#" aria-label="Показать подробную информацию">ПОДРОБНЕЕ</a>
 		<a class="btn-brown" href="#" aria-label="Забронировать отель">ЗАБРОНИРОВАТЬ</a>
 		<p class="rate">Рейтинг: 9,2</p>
+	</div>
 		</article>	
 	</div>
 	</section>

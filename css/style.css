@@ -203,8 +203,8 @@ p.search-text {
 	display: inline-block;
 	padding-top:  30px;
 	padding-bottom: 30px;
-	padding-left:  140px;
-	padding-right: 140px;
+	padding-left:  145px;
+	padding-right: 145px;
 	text-align: center;
 	color: #ffffff;
 	vertical-align: middle;
@@ -216,11 +216,12 @@ p.search-text {
 
 .btn-find {
 	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-bottom: 20px;
 	padding-left: 198px;
 	padding-right: 198px;
 	margin-bottom: 55px;
-	margin-left: 15px;
+	margin-left: 10px;
+	font-weight: 700;
 }
 
 button {
@@ -263,7 +264,7 @@ p.hashtag {
 
 .filter {
 	width: 1200px;
-	min-height: 217px;
+	height: 217px;
 	background-image: url("filter_background.jpg");
 	background-repeat: no-repeat;
 }
@@ -496,18 +497,25 @@ min-height: 330px;
 
 .arrival {
 	width: 347px;
+	min-height: 25px;
+	margin-left: 18px;
 }
 
 .departure {
 	width: 347px;
+	min-height: 25px;
+	margin-left: 15px;
 }
 
 .children {
 	width: 114px;
+	min-height: 25px;
 }
 
 .adults {
 	width: 114px;
+	min-height: 25px;
+	margin-left: 35px;
 }
 
 .filter-form {
@@ -566,6 +574,8 @@ min-height: 330px;
 
 .main-content {
 	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	min-height: 453px;
 }
 
@@ -674,4 +684,51 @@ min-height: 330px;
 }
 
 .features-item_blue .title-blue {
+	
 }
+.children-block {
+	margin-left: 74px;
+}
+p.rate {
+    font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.filter-type_str {
+	margin-left: 73px;
+	margin-bottom: 10px;
+}	
+
+.filter-type_house {
+	margin-left: 115px;
+	margin-bottom: 15px;
+}
+
+.filter-type_cost {
+	margin-left: 394px;
+}
+
+.checkbox-list_str {
+	margin-left: 35px;
+}
+
+.checkbox-list_house {
+	width: 130px;
+	margin-left: 70px;
+}
+
+.checkboxes  {
+	margin-bottom: 31px;
+}
+
+.range-cost {
+	margin-top: 70px;
+	margin-left: 400px;
+}
+
+.btn-show {
+	margin-top: 20px;
+	margin-left: 430px;
+}
+
