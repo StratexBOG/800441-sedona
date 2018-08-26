@@ -20,8 +20,6 @@ a {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0;
-	
-
 }
 
 .main-logo {
@@ -29,6 +27,7 @@ a {
 	height: 72px;
 	display: block;
 	margin: 0 auto;
+	margin-top: -1px;
 }
 
 .main-navigation {
@@ -64,7 +63,7 @@ a {
 .information {
 	width: 128px;
 	margin-right: 148px;
-	padding-left: 70px;
+	margin-left: 70px;
 	margin-top: 15px;
 }
 
@@ -82,7 +81,7 @@ a {
 
 .type-of-hotel {
 	width: 126px;
-	padding-right: 20px;
+	margin-right: 20px;
 	margin-left: 40px;
 	margin-top: 15px;
 }
@@ -217,10 +216,10 @@ p.search-text {
 .btn-find {
 	padding-top: 17px;
 	padding-bottom: 20px;
-	padding-left: 198px;
-	padding-right: 198px;
+	padding-left: 210px;
+	padding-right: 210px;
 	margin-bottom: 55px;
-	margin-left: 10px;
+	margin-left: -3px;
 	font-weight: 700;
 }
 
@@ -255,8 +254,8 @@ p.hashtag {
 
 .created-by {
 	display: inline-block;
-	padding-left: 100px;
-	padding-top: 40px;
+	margin-left: 100px;
+	margin-top: 40px;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
@@ -294,7 +293,7 @@ p.text-sort {
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 400;
-	padding-top: 13px;
+	margin-top: 36px;
 	margin-left: 50px;
 }
 
@@ -351,12 +350,12 @@ a.btn-blue {
 	background-color: #81b3d2;
 }
 
-a:hover.btn {
+a:hover.btn-blue {
 	color: #ffffff;
 	background-color: #669ec0;
 }
 
-a:active.btn {
+a:active.btn-blue {
 	color: #88b6d1;
 	background-color: #5496bd;
 }
@@ -422,8 +421,8 @@ a:active.title-hotel {
 .hashtag {
 	width: 135px;
 	margin: 0;
-	margin-left: 130px;
-	padding-top: 40px;
+	margin-left: 65px;
+	margin-top: 50px;
 }
 
 .social-list {
@@ -433,8 +432,8 @@ a:active.title-hotel {
 	width: 150px;
 	padding:0; 
 	margin: 0 auto;
-	padding-left: 258px;
-	padding-top: 10px;
+	margin-left: 258px;
+	margin-top: 10px;
 }
 
 .footer-copyright {
@@ -524,44 +523,44 @@ min-height: 330px;
 }
 
 .footer-logo {
-	padding-right: 100px;
-	padding-top: 30px;
+	margin-right: 100px;
+	margin-top: 30px;
 }
 
 .social-btn_tw {
 	display: inline-block;
-	padding-right: 10px;
-	padding-top: 40px;
+	margin-right: 10px;
+	margin-top: 35px;
 
 }
 
 .social-btn_fb {
 	display: inline-block;
-	padding-right: 10px;
-	padding-top: 40px;
+	margin-right: 10px;
+	margin-top: 35px;
 
 }
 
 .social-btn_yt {
 	display: inline-block;
-	padding-top: 40px;
+	margin-top: 35px;
 
 }
 
 .btn-sort {
 	display: inline-block;
-	padding-left: 40px;
+	margin-left: 40px;
 	margin-top: 36px;
 }
 
 .btn-sort-up {
 	margin-top: 36px;
-	padding-left: 400px;
+	margin-left: 400px;
 }
 
 .btn-sort-down {
 	margin-top: 36px;
-	padding-left: 30px;
+	margin-left: 30px;
 }
 
 .text-find {
@@ -581,16 +580,16 @@ min-height: 330px;
 
 .btn-blue {
 	display: inline-block;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	padding-right: 17px;
 	padding-left: 17px;
 }
 
 .btn-brown {
 	display: inline-block;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	padding-right: 17px;
 	padding-left: 17px;
 }
@@ -608,7 +607,7 @@ min-height: 330px;
 }
 
 .features-item_blue h3 {
-	padding-top: 45px;
+	margin-top: 45px;
 }
 
 .features-caption_1 h3 {
@@ -684,7 +683,9 @@ min-height: 330px;
 }
 
 .features-item_blue .title-blue {
-	
+	width: 151px;
+	height: 40px;
+	margin-left: 125px;
 }
 .children-block {
 	margin-left: 74px;
@@ -710,6 +711,7 @@ p.rate {
 }
 
 .checkbox-list_str {
+	width: 130px;
 	margin-left: 35px;
 }
 
@@ -730,5 +732,81 @@ p.rate {
 .btn-show {
 	margin-top: 20px;
 	margin-left: 430px;
+	padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+.amara-image {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.caption-amara-resort {
+	display: flex;
+	margin-left: 150px;
+	margin-top: -121px;
+}
+
+.caption-type-and-cost {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -30px;
+	margin-left: 150px;
+
+}
+
+.caption-btn {
+	display: flex;
+	align-items: flex-start;
+	margin-top: -5px;
+	margin-left: 153px;
+
+}
+
+.cost-cfg {
+	margin-right: 825px;
+}
+
+.btn-blue-cfg {
+margin-right: 6px;
+}
+
+.btn-brown-cfg {
+
+}
+
+.rate {
+	background-color: #f2f2f2;
+	color: #8b8b8b;
+	margin-left: 620px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.amara-resort {
+	min-height: 151px;
+}
+
+.desert-quail {
+	min-height: 151px;
+}
+
+.villas-at {
+	min-height: 151px;
+}
+
+.cost {
+	color: #5c5c5c;
+}
+
+.type {
+	color: #5c5c5c;
+}
+
+.footer-social {
+	margin-left: 29px;
+}
