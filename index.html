@@ -14,10 +14,10 @@
 		<img class="main-logo" src="img/logo.svg" alt="Логотип Седона" width="140" height="72">
 		</a>
 		<ul class="site-navigation">
-			<li><a href="#">Информация</a></li>
-			<li><a href="#">Фото и видео</a></li>
-			<li><a href="#">Карта штата</a></li>
-			<li><a href="inner.html">Гостиницы</a></li>
+			<li class="information"><a href="#">Информация</a></li>
+			<li class="video"><a href="#">Фото и видео</a></li>
+			<li class="map-state"><a href="#">Карта штата</a></li>
+			<li class="type-of-hotel"><a href="inner.html">Гостиницы</a></li>
 		</ul>
 	</nav>
 </header>
@@ -34,113 +34,106 @@
 	</div>
 	</section>
 	<section class="features">
-		<ul class="features-list-list">
-			<li class="feature-item">
-				<div class="justify-content">
-				<div class="background-color">
+		<ul class="features-list">
+			<li class="features-item features-item_blue">
 	<h3>Настоящий городок</h3>
 	   	<p>- №1 - </p><p>Седона - не атракцион для туристов, там течет своя жизнь
 	   </p>
-	</div>
+	   </li>
+	   <li class="features-item">		
+	   	<div class="features-image">
 	   <img src="img/Layer_10.jpg" alt="Фотография ресторана" width="800" height="256">
 	</div>
-	   </li>
-	</ul>
-	<ul class="features-list">
-	   <li class="feature-item">
+</li>
+	   <li class="features-item features-caption features-caption_1">
    	<h3>Жильё</h3>
 	   	<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 	   </li>
-	   <li class="feature-item">
+	   <li class="features-item features-caption features-caption_2">
 	   	<h3>Еда</h3>
 	   	<p>Всегда заказывайте фирменный бургер. Вы не разочаруйтесь!</p>
 	   </li>
-	   <li class="feature-item">
+	   <li class="features-item features-caption features-caption_3">
 	<h3>Сувениры</h3>
 	   	<p>Не только китайского, но и местного производства!</p>
 	   </li>
-	</ul>
-	<ul class="features-list-list">
-	   <li class="feature-item">
-	   	<div class="justify-content-reverse">
-	<img src="img/Layer_5.jpg" alt="Фотография каньона" width="800" height="256">
-	<div class="background-color">
+	   <li class="features-item features-item_blue">
 	   <h3>Там есть мост дьявола</h3>
 	   	<p>- №2 - </p><p>Да, по нему можно пройти! Если конечно вы осмелитесь
 	   </p>
-	</div>
-	</div>
-	   </li>
-	</ul>
-	<div class="features-background">
-	<ul class="features-list">
-	   	<li class="feature-item">
+	   <li class="features-item">
+	   	   	<div class="features-image">
+	<img src="img/Layer_5.jpg" alt="Фотография каньона" width="800" height="256">
+    </div>
+     </li>
+	   	<li class="features-item features-caption features-caption_4">
 	<h3>Небольшая площадь</h3>
 	   	<p>- №3 - </p><p>Все достопримечательности находятся очень близко</p>
 	   </li>
-	   <li class="feature-item">
+	   <li class="features-item features-caption features-caption_5">
     <h3>Красивая дорога</h3>
 	   	<p>- №4 - </p><p>Ехать в Седону из Лас Вегаса совсем не скучно!
 	   	</p>
 	   </li>
-	   <li class="feature-item">
+	   <li class="features-item features-caption features-caption_6">
 	<h3>Мало туристов</h3>
 	   	<p>- №5 - </p><p>Большинство едет в гранд каньон и толпится там
 	   </p>
 	   </li>
 	</ul>
-</div>
 	</section>
 	<section class="search">
 		<h1>Заинтересовались?</h1>
 		<p class="search-text">Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 		<a href="#" class="search-btn" aria-label="Найти гостиницу" >Поиск гостиницы в Седоне</a>
-		<form class="search-аpartment" method="post" action="https://echo.htmlacademy.ru">
+		<form class="search-apartment" method="post" action="https://echo.htmlacademy.ru">
 			<p>
 				<label for="date-of-arrival">Дата заезда:</label>
-				<input id="date-of-arrival" type="text" name="arrival">
+				<input class="arrival" id="date-of-arrival" type="text" name="arrival">
 			</p>
 			<p>
 			<label for="date-of-departure">Дата выезда:</label>
-				<input id="date-of-departure" type="text" name="departure">	
+				<input class="departure" id="date-of-departure" type="text" name="departure">	
 			</p>
 			<p>
 				<p>
 			<label for="number-of-adults">Взрослые:</label>
-				<input id="number-of-adults" type="number" name="adults">
+				<input class="adults" id="number-of-adults" type="text" name="adults">
 			</p>
 			<p>
 			<label for="number-of-children">Дети:</label>
-				<input id="number-of-children" type="number" name="children">
+				<input class="children" id="number-of-children" type="text" name="children">
 			</p>
-			<button class="search-btn" type="submit" aria-label="Найти отель">Найти</button>	
+			<button class="search-btn btn-find" type="submit" aria-label="Найти отель">Найти</button>	
 		</form>
 	</section>
 <section class="map">
-	 <img class="map-map" src="img/map.jpg" alt="Как добраться до Седоны" width="1718" height="748">
+	 <img class="map-img" src="img/map.jpg" alt="Как добраться до Седоны" width="1718" height="748">
 	</section>
 </main>
    <footer class="main-footer">
    	<p class="hashtag">#visitsedona</p>
    	<div class="footer-social">
    		<ul class="social-list">
-   	<li><a class="social-btn" href="#" aria-label="Наш Твиттер">Твиттер
+   	<li><a class="social-btn_tw" href="#" aria-label="Наш Твиттер">Твиттер
    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
    	</a></li>
- 	<li><a class="social-btn" href="#" aria-label="Наш Фейсбук">Фейсбук
+ 	<li><a class="social-btn_fb" href="#" aria-label="Наш Фейсбук">Фейсбук
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
  	</a></li>
- 	<li><a class="social-btn" href="#" aria-label="Наш Ютуб">Ютуб
+ 	<li><a class="social-btn_yt" href="#" aria-label="Наш Ютуб">Ютуб
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
  	</a></li>
   		</ul>
    	</div>
    	<p class="footer-copyright">
  	 <b class="created-by">WEBSITE BY</b>
+ 	</p>
+ 	 <div class="footer-logo">
  	<a href="https://htmlacademy.ru/">
 <img src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="41">
- 	</a>
- </p>
+</a>
+</div>
    </footer>
   </body>
 </html>
