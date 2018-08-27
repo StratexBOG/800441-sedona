@@ -450,7 +450,7 @@ a:active.title-hotel {
 .hashtag {
 	width: 135px;
 	margin: 0;
-	margin-left: 133px;
+	margin-left: 104px;
 	margin-top: 50px;
 }
 
@@ -774,12 +774,14 @@ p.rate {
 .amara-image {
 	display: flex;
 	justify-content: flex-start;
+	margin-top: 31px;
+	margin-bottom: 31px;
 }
 
 .caption-amara-resort {
 	display: flex;
 	margin-left: 150px;
-	margin-top: -121px;
+	margin-top: -153px;
 }
 
 .caption-type-and-cost {
@@ -814,21 +816,31 @@ margin-right: 6px;
 	background-color: #f2f2f2;
 	color: #8b8b8b;
 	margin-left: 620px;
+	margin-top: 8px;
 	padding-left: 16px;
 	padding-right: 16px;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 .amara-resort {
+	width: 1200px;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
 	min-height: 151px;
 }
 
 .desert-quail {
+	width: 1200px;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
 	min-height: 151px;
 }
 
 .villas-at {
+	width: 1200px;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
 	min-height: 151px;
 }
 
@@ -843,7 +855,7 @@ margin-right: 6px;
 .footer-social {
 	display: flex;
 	margin-top: 19px;
-	margin-left: -4px;
+	margin-left: 30px;
 
 }
 
@@ -982,3 +994,17 @@ input[type="radio"].visually-hidden {
 	fill: #81b3d2;
 }
 
+.star-svg {
+	margin-left: 707px;
+	margin-top: 21px;
+}
+
+.star-svg_desert {
+	margin-left: 762px;
+
+}
+
+.star-svg_villas {
+	margin-left: 735px;
+
+}
