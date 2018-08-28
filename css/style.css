@@ -32,6 +32,7 @@ a {
 
 .main-navigation {
 	width: 1200px;
+	min-height: 57px;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
@@ -63,27 +64,29 @@ a {
 .information {
 	width: 128px;
 	margin-right: 148px;
-	margin-left: 70px;
-	margin-top: 15px;
+	margin-left: 71px;
+	margin-top: 18px;
 }
 
 .map-state {
 	width: 88px;
-	margin-right: 163px;
-	margin-top: 15px;
+	margin-right: 127px;
+	margin-left: -3px;
+	margin-top: 18px;
 }
 
 .video {
 	width: 88px;
-	margin-right: 300px;
-	margin-top: 15px;
+	margin-right: 400px;
+	margin-top: 18px;
+	margin-left: -34px;
 }
 
 .type-of-hotel {
 	width: 126px;
-	margin-right: 20px;
-	margin-left: 40px;
-	margin-top: 15px;
+	margin-right: 43px;
+	margin-left: 35px;
+	margin-top: 18px;
 }
 
 .site-navigation a:focus {
@@ -103,19 +106,25 @@ a:visited.navigation-btn {
 }
 
 .intro-welcome {
-	width: 1200px;
-    height: 450px;
+	position: absolute;
+	top: 132px;
+
+}
+
+.intro-background {
+    width: 1200px;
+    height: 429px;
 	background-image: url("backgroundphoto.jpg");
 	background-repeat: no-repeat;
-	margin: 0 auto;
-	padding-top: 76px;
+	background-position-y: -56px;
+	padding-top: 79px;
 }
 
 .intro {
 	width: 1200px;
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 65px;
+	margin-bottom: 46px;
 }
 
 .intro-about {
@@ -138,6 +147,7 @@ a:visited.navigation-btn {
 	background-color: #81b3d2;
 	width: 400px;
 	height: 256px;
+	margin-top: -4px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -205,14 +215,17 @@ p.search-text {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
+	margin-top: -27px;
 }
 
 .search-btn {
 	display: inline-block;
+	width: 300px;
 	padding-top:  30px;
 	padding-bottom: 30px;
-	padding-left:  145px;
-	padding-right: 145px;
+	padding-left:  134px;
+	padding-right: 134px;
+	margin-top: 15px;
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
@@ -225,12 +238,12 @@ p.search-text {
 }
 
 .btn-find {
-	padding-top: 17px;
-	padding-bottom: 20px;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 195px;
+	padding-right: 263px;
 	margin-bottom: 55px;
-	margin-left: -4px;
+	margin-left: 6px;
 	font-weight: 700;
 	font-size: 21px;
 	line-height: 26px;
@@ -474,7 +487,19 @@ a:active.title-hotel {
 .features-image {
 	width: 800px;
 	min-height: 256px;
+	margin-top: -4px;
 }
+
+.features-image_second {
+	width: 800px;
+	min-height: 256px;
+	margin-top: -9px;
+}
+
+.features-item_blue_second {
+	margin-top: -9px;
+}
+
 
 .features-caption {
 	width: 400px;
@@ -486,7 +511,7 @@ a:active.title-hotel {
 	background-image: url("icon-1.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-position-y: 50px; 
+	background-position-y: 52px; 
 	width: 400px;
 	min-height: 330px;
 }
@@ -495,7 +520,7 @@ a:active.title-hotel {
 	background-image: url("icon-3.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-position-y: 50px; 
+	background-position-y: 53px; 
     width: 400px;
     min-height: 330px;
 }
@@ -504,7 +529,7 @@ a:active.title-hotel {
 	background-image: url("icon-2.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-position-y: 50px; 
+	background-position-y: 48px; 
     width: 400px;
     min-height: 330px;
 }
@@ -530,21 +555,28 @@ a:active.title-hotel {
 .search-apartment {
 	display: flex;
 	flex-wrap: wrap;
-	width: 470px;
+	width: 477px;
+	min-height: 395px;
+	position: absolute;
+	background-color: #ffffff;
 	text-align: center;
-	margin-left: 363px;
+	margin-left: 316px;
+	padding-left: 49px;
+	padding-right: 42px;
 }
 
 .arrival {
-	width: 347px;
-	min-height: 25px;
-	margin-left: 18px;
+	width: 344px;
+	min-height: 32px;
+	margin-left: 17px;
+	margin-top: -4px;
 }
 
 .departure {
-	width: 347px;
-	min-height: 25px;
-	margin-left: 15px;
+	width: 344px;
+	min-height: 34px;
+	margin-left: 17px;
+	margin-top: -3px;
 }
 
 .children {
@@ -644,38 +676,47 @@ a:active.title-hotel {
 }
 
 .features-caption_1 h3 {
-	margin-top: 160px;
+	margin-top: 153px;
+	margin-left: -3px;
+	margin-bottom: 24px;
 }
 
 .features-caption_2 h3 {
-	margin-top: 160px;
+	margin-top: 153px;
+	margin-left: -1px;
+	margin-bottom: 24px;
 }
 
 .features-caption_3 h3 {
-	margin-top: 160px;
+	margin-top: 153px;
+	margin-left: 1px;
+	margin-bottom: 24px;
 }
 
 .features-caption_4 h3 {
 	width: 190px;
-	margin-top: 45px;
-	margin-left: 110px;
+	margin-top: 47px;
+	margin-left: 104px;
+	margin-bottom: 25px;
 }
 
 .features-caption_5 h3 {
-	margin-top: 45px;
+	margin-top: 47px;
 	width: 170px;
-	margin-left: 110px;
+	margin-left: 115px;
+	margin-bottom: 25px;
 }
 
 .features-caption_6 h3 {
 	width: 160px;
-	margin-top: 45px;
+	margin-top: 47px;
 	margin-left: 120px;
+	margin-bottom: 25px;
 }
-
+/*
 .features-caption_1 p {
 	width: 300px;
-	margin-left: 50px;
+	margin-left: 49px;
 }
 
 .features-caption_2 p {
@@ -700,14 +741,14 @@ a:active.title-hotel {
 .features-caption_6 p {
 	width: 250px;
 	margin-left: 75px;
-}
+}*/
 
 .number-block {
 }
 
 .features-item_blue p {
-	width: 320px;
-	margin-left: 45px;
+	width: 299px;
+	margin-left: 44px;
 }
 
 .features-item_blue h3 {
@@ -719,6 +760,7 @@ a:active.title-hotel {
 	width: 151px;
 	height: 40px;
 	margin-left: 125px;
+	margin-top: 46px;
 }
 .children-block {
 	margin-left: 74px;
@@ -864,10 +906,14 @@ margin-right: 6px;
 }
 
 .number-block {
+	margin-left: 74px;
 	color: #4c4c4c;
 }
 
-.number-block_white {
+.number-block_white  {
+	margin-top: 26px;
+	margin-bottom: 21px;
+	margin-left: 50px;
 	color: #ddebf3;
 }
 
@@ -926,21 +972,23 @@ input[type="radio"].visually-hidden {
 }
 
 .intro-mask {
+	width: 1200px;
 	height: 60px;
-	margin: 0 auto;
-	padding: 0;
-	margin-top: -26px;
+	position: absolute;
+	top: 507px;
+	background-image: url("intro-mask.svg");
+	background-repeat: no-repeat;
 }
 
 .intro-discribe {
 	width: 445px;
-	margin-left: 380px;
+	margin-left: 377px;
 	margin-top: 60px;
-	margin-bottom: 35px;
+	margin-bottom: 27px;
 }
 
 .search-question {
-	margin-top: 55px;
+	margin-top: 51px;
 	margin-bottom: 32px;
 }
 
@@ -1007,4 +1055,77 @@ input[type="radio"].visually-hidden {
 .star-svg_villas {
 	margin-left: 735px;
 
+}
+
+.features-item_blue_second p {
+	width: 324px;
+	margin-left: 38px;
+}
+
+.number-block_white_second {
+	margin-left: 38px;
+}
+
+.number-block_third  {
+	margin: 0;
+	margin-bottom: 22px;
+}
+
+.number-block_fourth {
+	margin: 
+	margin-bottom: 22px;
+
+}
+
+.number-block_fifth {
+	margin: 0
+	margin-bottom: 22px;
+}
+
+.caption-discribe_first {
+	width: 300px;
+	margin-left: 49px;
+
+}
+
+.caption-discribe_second {
+	width: 300px;
+	margin-left: 50px;
+
+}
+
+.caption-discribe_third {
+	width: 300px;
+	margin-left: 50px;
+}
+
+.caption-discribe_fourth {
+	margin-top: 0px;
+	width: 250px;
+	margin-left: 75px;
+
+}
+
+.caption-discribe_fifth {
+	margin-top: 22px;
+	width: 270px;
+	margin-left: 63px;
+
+}
+
+.caption-discribe_sixth {
+	margin-top: 22px;
+	width: 250px;
+	margin-left: 75px;
+
+}
+
+.arrival-block {
+	margin-left: 8px;
+	margin-top: 59px;
+}
+
+.departure-block {
+	margin-top: -1px;
+	margin-left: 5px;
 }
