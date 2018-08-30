@@ -448,8 +448,9 @@ a:active.title-hotel {
 	width: 477px;
 	min-height: 395px;
 	position: absolute;
-	right: 35%;
-	bottom: -167%;
+	top: 2116px;
+	right: 50%;
+	margin-right: -281px;
 	background-color: #ffffff;
 	text-align: center;
 	padding-left: 49px;
