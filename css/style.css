@@ -499,18 +499,6 @@ a:active.title-hotel {
 	display: inline-block;
 }
 
-.btn-sort-up {
-}
-
-.btn-sort-down {
-}
-
-.text-find {
-}
-
-.text-sort {
-}
-
 .main-content {
 	display: flex;
 	flex-direction: column;
@@ -542,29 +530,10 @@ a:active.title-hotel {
 	padding-top: 28px;
 }
 
-.map {
-
-}
-
-.children-block {
-}
-
 p.rate {
     font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-}
-
-.filter-type_str {
-	
-}	
-
-.filter-type_house {
-	
-}
-
-.filter-type_cost {
-	
 }
 
 .checkbox-list_str {
@@ -575,14 +544,6 @@ p.rate {
 .checkbox-list_house {
 	width: 130px;
 	
-}
-
-.checkboxes  {
-	
-}
-
-.range-cost {
-
 }
 
 .btn-show {
@@ -613,20 +574,6 @@ p.rate {
 .caption-btn {
 	display: flex;
 	align-items: flex-start;
-	
-
-}
-
-.cost-cfg {
-	
-}
-
-.btn-blue-cfg {
-
-}
-
-.btn-brown-cfg {
-
 }
 
 .rate {
@@ -709,20 +656,6 @@ input[type="radio"].visually-hidden {
 	fill: #88b6d1;
 }
 
-.social-btn_tw {
-	
-
-}
-
-.social-btn_fb {
-	
-
-}
-
-.social-btn_tw {
-
-}
-
 .intro-mask {
 	width: 1200px;
 	min-height: 60px;
@@ -734,10 +667,6 @@ input[type="radio"].visually-hidden {
 
 .intro-discribe {
 	width: 100%;
-}
-
-.search-question {
-	
 }
 
 .logo-html:hover,
@@ -756,14 +685,6 @@ input[type="radio"].visually-hidden {
 
 .logo-html:active path {
 	fill: #bdbbbc;
-}
-
-.sort-svg {
-	
-}
-
-.sort-svg_down {
-	
 }
 
 .sort-svg:hover path,
@@ -786,29 +707,6 @@ input[type="radio"].visually-hidden {
 
 .sort-svg_down:visited path {
 	fill: #81b3d2;
-}
-
-.star-svg {
-	
-}
-
-.star-svg_desert {
-	
-
-}
-
-.star-svg_villas {
-	
-
-}
-
-.arrival-block {
-}
-
-.departure-block {
-}
-
-.adults-block {
 }
 
 .filter-range {
@@ -947,16 +845,6 @@ input[type="radio"].visually-hidden {
 
   background: #ffffff;
 }
-
-
-.checkbox-off
-
-}
-
-.checkbox-on {
-
-}
-
 
 .features-content {
 	width: 400px;
