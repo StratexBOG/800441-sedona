@@ -39,7 +39,7 @@ a {
 	margin: 0 auto;
 	padding: 0;
 
-
+	box-shadow: 0 10px 20px 0 rgba(0,2,2,.2);
 	background-color: #ffffff;
 }
 
@@ -205,6 +205,7 @@ p.search-text {
 .search-btn {
 	display: inline-block;
 	width: 300px;
+	margin-top: 37px;
 	padding-top:  30px;
 	padding-bottom: 30px;
 	padding-left:  130px;
@@ -411,9 +412,18 @@ a:active.title-hotel {
 }
 
 .container {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+.main-container {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0;
+	box-shadow: 0 10px 20px 0 rgba(0,2,2,.2);
+	background-color: #ffffff;
 }
 
 .search {
@@ -553,6 +563,7 @@ a:active.title-hotel {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	box-shadow: 0 10px 20px 0 rgba(0,2,2,.2);
 	background-color: #fefefe;
 }
 
@@ -1091,6 +1102,7 @@ a:visited.site-navigation-link_visited {
 	padding-left: 15px;
 	background-color: #f2f2f2;
 	color: #000000;
+	cursor: pointer;
 	border: none;
 
 }
@@ -1103,11 +1115,12 @@ a:visited.site-navigation-link_visited {
 	width: 103px;
 }
 
-.input-block {
+.row {
 	display: flex;
 }
 
 .label-text {
+	font: inherit;
 	padding-right: 17px;
 }
 
@@ -1146,31 +1159,92 @@ a:visited.site-navigation-link_visited {
 	
 }
 
-.label-text::after {
-	content: "";
-	position: absolute;
-	/*background-image: url("calendar.svg");*/
-	background-repeat: no-repeat;
-	width: 21px;
-	height: 22px;
-}
-
-.label-text_adults::after {
-	content: "";
-}
-
 .site-navigation-link_photo {
 	padding-right: 160px;
 
 }
 
 .search-question {
-	padding-top: 20px;
+	padding-top: 29px;
 }
 
+.calendar-arrival {
+	position: absolute;
+	left: 83%;
+	top: 57px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
 
+.calendar-departure {
+	position: absolute;
+	left: 83%;
+	top: 122px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
 
+.calendar-picture {
+	padding: 0;
+	margin: 0;
+}
 
+button:link.calendar {
+	background-color: #f2f2f2;
+}
 
+button:hover.calendar {
+	background-color: #ebebeb;
+}
+
+button:focus.calendar {
+	background-color: #ffffff;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 14px;
+	font-weight: 700;
+    color: #000000;
+}
+
+input[type="text"]::-moz-placeholder {
+	font-size: 14px;
+	font-weight: 700;
+    color: #000000;
+}
+
+.calendar-arrival {
+	fill: #cacaca;
+}
+
+.calendar-arrival:hover,
+.calendar-arrival:focus {
+	fill: #000000;
+}
+
+.calendar-arrival:active {
+	fill: #81b3d2;
+}
+
+.calendar-departure {
+	fill: #cacaca;
+}
+
+.calendar-departure:hover,
+.calendar-departure:focus {
+	fill: #000000;
+}
+
+.calendar-departure:active {
+	fill: #81b3d2;
+}
 
 
