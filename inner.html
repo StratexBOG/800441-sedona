@@ -7,8 +7,7 @@
      <link rel="stylesheet" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
-  <body>
-  	<div class="container">
+  <body class="container">
 <header class="main-header">
 	<nav class="main-navigation">
 		<a href="index.html" class="main-header-logo" >
@@ -59,8 +58,8 @@
                  </li>
 			</ul>
 		</fieldset>
-		<div class="filter-range">
-      <div class="filter-range-title">Стоимость в сутки (Р):</div>
+		<fieldset class="filter-range" style="border:none">
+      <legend class="filter-range-title">Стоимость в сутки (Р):</legend>
       <div class="price-controls">
         <label class="min-price">от <input type="text" name="min-price" value="0"></label>
         <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
@@ -73,7 +72,7 @@
         <div class="range-toggle range-toggle-max"></div>
       </div>
       <button class="btn-transparent" type="submit">Показать</button>
-    </div>
+    </fieldset>
 		</form>
 	</section>
 	<section class="sort">
@@ -200,6 +199,5 @@
 </div>
 </div>
    </footer>
-</div>
   </body>
 </html>
