@@ -547,7 +547,8 @@ a:active.title-hotel {
 
 .btn-blue {
 	display: inline-block;
-	padding-top: 3px;
+	height: 23px;
+	padding-top: 1px;
 	padding-bottom: 3px;
 	padding-right: 17px;
 	padding-left: 17px;
@@ -555,7 +556,8 @@ a:active.title-hotel {
 
 .btn-brown {
 	display: inline-block;
-	padding-top: 3px;
+	height: 23px;
+	padding-top: 1px;
 	padding-bottom: 3px;
 	padding-right: 17px;
 	padding-left: 17px;
@@ -657,7 +659,7 @@ p.rate {
 }
 
 .type {
-	padding-bottom: 11px;
+	padding-bottom: 14px;
 	color: #5c5c5c;
 }
 
@@ -1055,9 +1057,26 @@ input[type="radio"].visually-hidden {
   top: 0;
 }
 
-.filter-input-checkbox:hover + label::before {
+.filter-input-checkbox:disabled + label::before {
   content: "";
-  color: red;
+  position: absolute;
+  background-image: url("../img/checkbox-off_gray.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 0;
+}
+
+.filter-input-checkbox:checked:disabled + label::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/checkbox-on_gray.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 0;
 }
 
 .checkboxes {
