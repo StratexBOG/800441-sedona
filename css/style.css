@@ -95,7 +95,7 @@ a:active.site-navigation-link {
 	position: relative;
     width: 100%;
     min-height: 432px;
-	background-image: url("backgroundphoto.jpg");
+	background-image: url("../img/backgroundphoto.jpg");
 	background-color: #4279a2;
 	background-repeat: no-repeat;
 	background-position-y: -57px;
@@ -268,7 +268,7 @@ p.hashtag {
 .filter {
 	width: 1200px;
 	min-height: 217px;
-	background-image: url("filter_background.jpg");
+	background-image: url("../img/filter_background.jpg");
 	background-color: #687f94;
 	background-repeat: no-repeat;
 	background-position-y: -55px;
@@ -445,6 +445,14 @@ a:active.title-hotel {
 	height: auto;
 	margin: 0 auto;
 	padding: 0 ;
+}
+
+.image-map {
+	width: 1200px;
+	height: 593px;
+	text-align: center;
+	background-image: url("../img/map.jpg");
+	background-repeat: no-repeat;
 }
 
 .main-footer {
@@ -1514,11 +1522,3 @@ input[type="text"]::-moz-placeholder {
 .type-apartaments {
 	padding-right: 21px;
 }
-
-
-
-
-
-
-
-
