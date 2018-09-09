@@ -48,7 +48,6 @@ a {
 	padding-right: 73px;
 	min-height: 57px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 
 	list-style: none;
@@ -220,12 +219,14 @@ p.search-text {
 }
 
 .btn-find {
+	display: flex;
+	justify-content: center;
 	outline: none;
 	cursor: pointer;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 195px;
-	padding-right: 263px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 228px;
+	padding-right: 230px;
 	font-weight: 700;
 	font-size: 21px;
 	line-height: 35px;
@@ -484,8 +485,6 @@ a:active.title-hotel {
 }
 
 .search-apartment {
-	display: flex;
-	flex-wrap: wrap;
 	width: 570px;
 	min-height: 395px;
 	position: absolute;
@@ -1166,6 +1165,8 @@ a:visited.site-navigation-link_visited {
 
 .row {
 	display: flex;
+	position: relative;
+	padding-bottom: 22px;
 }
 
 .label-text {
@@ -1225,9 +1226,6 @@ a:visited.site-navigation-link_visited {
 }
 
 .calendar-arrival {
-	position: absolute;
-	left: 85%;
-	top: 63px;
 	background-color: transparent;
 	margin: 0;
 	padding: 0;
@@ -1237,9 +1235,6 @@ a:visited.site-navigation-link_visited {
 }
 
 .calendar-departure {
-	position: absolute;
-	left: 85%;
-	top: 130px;
 	background-color: transparent;
 	margin: 0;
 	padding: 0;
@@ -1307,8 +1302,8 @@ input[type="text"]::-moz-placeholder {
 
 .icon-pluse {
 	position: absolute;
-	top: 50%;
-	right: 51%;
+	left: 88%;
+	top: 7px;
     width: 22px;
     height: 22px;
     font-size: 0;
@@ -1397,8 +1392,8 @@ input[type="text"]::-moz-placeholder {
 
 .icon-minus {
 	position: absolute;
-	top: 50%;
-	right: 65%;
+	left: 55%;
+	top: 6px;
     width: 22px;
     height: 22px;
     font-size: 0;
@@ -1425,9 +1420,6 @@ input[type="text"]::-moz-placeholder {
 }
 
 .icon-pluse_children {
-	position: absolute;
-	top: 50%;
-	right: 11%;
     width: 22px;
     height: 22px;
     font-size: 0;
@@ -1459,9 +1451,6 @@ input[type="text"]::-moz-placeholder {
 }
 
 .icon-minus_children {
-	position: absolute;
-	top: 50%;
-	right: 24%;
     width: 22px;
     height: 22px;
     font-size: 0;
@@ -1507,6 +1496,7 @@ input[type="text"]::-moz-placeholder {
 }
 
 .counter {
+	position: relative;
 	margin-top: 7px;
 	margin-left: -2px;
 }
@@ -1522,7 +1512,11 @@ input[type="text"]::-moz-placeholder {
 .type-apartaments {
 	padding-right: 21px;
 }
-  
+
+.calendar-btn {
+	position: absolute;
+	left: 92%;
+	top: 9px;
+}
 
 
-  
