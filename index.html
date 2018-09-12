@@ -68,7 +68,7 @@
 	<img class="content-photo" src="img/Layer_5.jpg" alt="Фотография каньона" width="800" height="256">
 </div>
 		<div class="features-content">
-	   <h3 class="features-title features-title_white features-title_white_bridge">Там есть мост дьявола</h3>
+	   <h3 class="features-title features-title_white features-title_white_bridge">Там есть<br>мост дьявола</h3>
 	   	<p class="features-text_white features-text_number features-text_width">— №2 —</p><p class="features-text_white features-text_width">Да, по нему можно пройти! Если конечно вы осмелитесь
 	   </p>
 	</div>
@@ -144,6 +144,7 @@
    	</a></li>
  	<li><a class="social-btn social-btn_fb" href="#" aria-label="Наш Фейсбук"><span class="visually-hidden">Фейсбук</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+</a></li>
  	<li><a class="social-btn social-btn_yt" href="#" aria-label="Наш Ютуб"><span class="visually-hidden">Ютуб</span>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
  	</a></li>
@@ -159,11 +160,33 @@
    <script>
    	var link = document.querySelector(".search-btn");
    	var popup = document.querySelector(".search-apartment");
+   	var form = document.querySelector("form");
+   	var hotelarrival = popup.querySelector("[name=hotel-arrival]");
+   	var arrival = popup.querySelector("[name=hotel-arrival]");
+   	var departure = popup.querySelector("[name=hotel-departure]");
+   	var adults = popup.querySelector("[name=hotel-adults]");
+   	var children = popup.querySelector("[name=hotel-children]");
 
 
    	link.addEventListener("click", function (evt) { evt.preventDefault();
    		popup.classList.toggle("search-apartment-none");
+   		hotelarrival.focus();
    	});
+
+   	form.addEventListener("submit", function (evt) {
+     if (!arrival.value || !departure.value || !adults.value || !children.value) {
+      evt.preventDefault();
+    }
+  });
+
+   	window.addEventListener("keydown", function (evt) {
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      if (popup.classList.contains("search-apartment")) {
+        popup.classList.toggle("search-apartment-none");
+      }
+    }
+  });
 
 
 
