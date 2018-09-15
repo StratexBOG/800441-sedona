@@ -1,4 +1,4 @@
-        var link = document.querySelector(".search-btn");
+   var link = document.querySelector(".search-btn");
    	var popup = document.querySelector(".search-apartment");
    	var form = document.querySelector("form");
    	var hotel = popup.querySelector("[name=hotel-arrival]");
