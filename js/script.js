@@ -1,14 +1,13 @@
-   var link = document.querySelector(".search-btn");
-   	var popup = document.querySelector(".search-apartment");
-   	var form = document.querySelector("form");
-   	var hotel = popup.querySelector("[name=hotel-arrival]");
-   	var arrival = popup.querySelector("[name=hotel-arrival]");
-   	var departure = popup.querySelector("[name=hotel-departure]");
-   	var adults = popup.querySelector("[name=hotel-adults]");
-   	var children = popup.querySelector("[name=hotel-children]");
+  var link = document.querySelector(".search-btn");
+  var popup = document.querySelector(".search-apartment");
+  var form = document.querySelector("form");
+  var hotel = popup.querySelector("[name=hotel-arrival]");
+  var arrival = popup.querySelector("[name=hotel-arrival]");
+  var departure = popup.querySelector("[name=hotel-departure]");
+  var adults = popup.querySelector("[name=hotel-adults]");
+  var children = popup.querySelector("[name=hotel-children]");
 
    	popup.classList.add("search-apartment-none");
-
 
    	link.addEventListener("click", function (evt) {
    	    evt.preventDefault();
