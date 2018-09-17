@@ -662,7 +662,8 @@ color:#5c5c5c
 }
 
 .type {
-	max-width: 110px;
+	width: 110px;
+	padding-right: 6px;
 color:#5c5c5c
 }
 
@@ -1022,7 +1023,7 @@ padding-bottom:25px
 }
 
 .type {
-padding-right:40px
+padding-right:
 }
 
 .btn-blue-cfg {
@@ -1521,14 +1522,6 @@ display:flex;
 -webkit-box-align:center;
 -ms-flex-align:center;
 align-items:center
-}
-
-.type-motel {
-padding-right:65px
-}
-
-.type-apartaments {
-padding-right:21px
 }
 
 .calendar-btn {
