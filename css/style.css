@@ -636,16 +636,18 @@ padding:5px 20px
 }
 
 .caption-type-and-cost {
-	max-width: 259px;
+	padding-bottom: 14px;
 display:-webkit-box;
 display:-ms-flexbox;
-display:flex
+display:flex;
+align-items: center;
 }
 
 .caption-btn {
 display:-webkit-box;
 display:-ms-flexbox;
-display:flex
+display:flex;
+align-items: center;
 }
 
 .rate {
@@ -655,11 +657,12 @@ padding:3px 12px 3px 16px
 }
 
 .cost {
+	max-width: 142px;
 color:#5c5c5c
 }
 
 .type {
-padding-bottom:14px;
+	max-width: 110px;
 color:#5c5c5c
 }
 
@@ -1043,6 +1046,7 @@ position:relative;
 padding-left:40px;
 display:block;
 cursor:pointer;
+padding-bottom: 2px;
 -webkit-user-select:none;
 -moz-user-select:none;
 -ms-user-select:none;
@@ -1122,7 +1126,7 @@ cursor:not-allowed
 }
 
 .checkboxes {
-padding-bottom:24px
+padding-bottom:22px
 }
 
 .fieldset-block {
@@ -1542,6 +1546,7 @@ background-color:#fff
 }
 
 .features-content_white {
+	padding: 44px 0;
 margin:0
 }
 
